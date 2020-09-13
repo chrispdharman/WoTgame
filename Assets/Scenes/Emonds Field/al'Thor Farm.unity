@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 295433016}
   - component: {fileID: 295433017}
   - component: {fileID: 295433018}
+  - component: {fileID: 295433019}
   m_Layer: 0
   m_Name: Right leg
   m_TagString: Untagged
@@ -225,6 +226,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &295433019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295433015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 187c3dab862384a93a7e9968f283ae1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 295433018}
 --- !u!1 &477212592
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,6 +517,7 @@ GameObject:
   - component: {fileID: 714531499}
   - component: {fileID: 714531500}
   - component: {fileID: 714531501}
+  - component: {fileID: 714531502}
   m_Layer: 0
   m_Name: Left Leg
   m_TagString: Untagged
@@ -594,6 +609,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &714531502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714531498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fffb5bbc0c4a4e658988511716b94c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 714531501}
 --- !u!1 &910294047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1830,6 +1858,7 @@ GameObject:
   - component: {fileID: 969219030}
   - component: {fileID: 969219031}
   - component: {fileID: 969219032}
+  - component: {fileID: 969219033}
   m_Layer: 0
   m_Name: Right Arm
   m_TagString: Untagged
@@ -1921,6 +1950,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &969219033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969219029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f45ae50054cc4674adbb020da71560c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 969219032}
 --- !u!1 &1364719686
 GameObject:
   m_ObjectHideFlags: 0
@@ -3117,6 +3159,7 @@ GameObject:
   - component: {fileID: 1951815626}
   - component: {fileID: 1951815627}
   - component: {fileID: 1951815628}
+  - component: {fileID: 1951815629}
   m_Layer: 0
   m_Name: Left Arm
   m_TagString: Untagged
@@ -3208,3 +3251,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1951815629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951815625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c5bdff0765b463b9de82c87b73e027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1951815628}
